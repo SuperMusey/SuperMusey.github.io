@@ -82,6 +82,8 @@
 
 .display_table{
     width: 50%;
+    white-space:pre-wrap; 
+    word-wrap:break-word
 }
 
 #avg_rating{
@@ -121,4 +123,15 @@
 #prev_table:active{
     background-color: grey;
     transition: 0.1s ease;
+}
+
+.info{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    padding-right: 10px;
+    cursor: pointer;
 }
